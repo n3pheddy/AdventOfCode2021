@@ -10,3 +10,7 @@ Number of increasing (window size=3): 1486
 2. go run aoc2.go  
 (Part 1) Horizontal position * depth = 1762050  
 (Part 2) Horizontal position * depth = 1855892637
+
+3. go run aoc3.go  
+Submarine Power Consumption=3320834  
+Submarine Life Support Rating=4481199
