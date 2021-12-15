@@ -14,3 +14,11 @@ Number of increasing (window size=3): 1486
 3. go run aoc3.go  
 Submarine Power Consumption=3320834  
 Submarine Life Support Rating=4481199
+
+4. go run aoc4.go  
+Score at first board: 99 * 899 = 89001  
+Score at last board: 38 * 192 = 7296
+
+Took me some time to do this. At first I created a reverse index to look up the numbers efficiently.
+When I get to the second part, I realized I had to solve for all boards and (almost) all numbers
+anyway, so I implemented the `solve()` algorithm to find the minimum index needed to win for each board.

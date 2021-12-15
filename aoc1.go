@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-// Simple function for summing values in an []int.
+// Add all the values in an []int.
 func sum(nums []int) (result int) {
 	for _, num := range nums {
 		result += num
